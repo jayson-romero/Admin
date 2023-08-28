@@ -5,7 +5,7 @@ import {TbWorld} from 'react-icons/tb'
 const TopBar = () => {
   return (
     <>
-      <div className="topBar bg-blue p-3 md:p-5 xl:p-3">
+      <div className="topBar fixed top-0 w-full bg-blue p-3 md:p-5 xl:p-3 z-50 ">
          <div className="topBarWrapper flex justify-center md:justify-between xl:max-w-[1600px] xl:m-auto">
             {/* LOGO */}
             <div className="topLeft text-white font-bold text-[25px] md:text-[30px]">

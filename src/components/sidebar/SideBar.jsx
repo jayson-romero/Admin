@@ -15,7 +15,7 @@ const navigation =
     { name: 'Sales', href: '/test', icon: <DiGoogleAnalytics className='w-[30px] h-[30px]'/>}
   ],
   menu: [
-    { name: 'users', href: '/test', icon: <FiUsers className='w-[30px] h-[30px]'/> },
+    { name: 'users', href: '/userlist', icon: <FiUsers className='w-[30px] h-[30px]'/> },
     { name: 'Products', href: '/test', icon: <BiStore className='w-[30px] h-[30px]'/> },
     { name: 'Transactions', href: '/test', icon: <GrTransaction className='w-[30px] h-[30px]'/> },
     { name: 'Reports', href: '/test', icon: <TbReportSearch className='w-[30px] h-[30px]'/> }
@@ -36,8 +36,8 @@ const navigation =
 const SideBar = () => {
   return (
     <>
-      <div className=" group sideBar bg-blue h-[100%]">
-        <div className="sideBarWrapper p-2 overflow-hidden">
+      <div className=" group sideBar bg-blue h-[100%] pt-5 z-10">
+        <div className="sideBarWrapper p-2 overflow-hidden z-10">
 
               <div className="dashboard ">
                 <h1 className="header text-[10px] lg:text-[12px]  group-hover:block group-hover:text-[12px]  ">Dashboard</h1>
